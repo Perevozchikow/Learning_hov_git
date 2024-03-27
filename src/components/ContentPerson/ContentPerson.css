@@ -1,0 +1,33 @@
+.person_container{
+    display: flex;
+    border: 1px dotted #a1a1a1;
+    border-radius: 5px;
+}
+.person_container:hover{
+    -webkit-box-shadow: 8px 8px 4px 0 rgba(34, 60, 80, 0.4);
+    -moz-box-shadow: 8px 8px 4px 0 rgba(34, 60, 80, 0.4);
+    box-shadow: 8px 8px 4px 0 rgba(34, 60, 80, 0.4);
+}
+.person_info_container{
+    padding: 0.8rem;
+}
+.person_name{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.item{
+    font-weight: 400;
+    font-size: 14px;
+    color: #1F4766;
+    opacity: 0.8;
+}
+.person_info{
+    display: grid;
+    grid-template-columns: 373px 1fr;
+}
+.person_img{
+    background-color: #a1a1a1;
+    width: 162px;
+    height: 162px;
+}

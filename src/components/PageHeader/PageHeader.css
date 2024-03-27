@@ -1,0 +1,13 @@
+
+
+.page_header{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    text-align: center;
+    align-content: center;
+    padding-top: 2rem;
+}
+.page_title{
+    font-weight: 700;
+    font-size: 28px;
+}

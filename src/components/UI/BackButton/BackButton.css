@@ -1,0 +1,12 @@
+span{
+    font-size: 22px;
+}
+.back_button{
+    width: 96px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
